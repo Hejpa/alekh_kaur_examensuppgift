@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    padding: 50px;
     box-sizing: border-box;
 }
 
@@ -33,6 +33,7 @@ h1{
     0 0 50px rgba(244, 114, 182, 0.2);
 }
 
+
 .row1,
 .row2,
 .row3,
@@ -51,5 +52,5 @@ h1{
 .keyboard div div{
     width: 55px;
     height: 55px;
-    background: -linear-gradient(145deg, #60a5fa);
+    background: -linear-gradient(145deg, rgb(0, 140, 255));
 }
