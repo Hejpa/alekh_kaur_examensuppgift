@@ -1,25 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(135deg, black, rgb(30, 30, 90, rgb(74, 18, 95)));
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 40px 20px;
+   background-color: rgb(51, 137, 212);
+   height: 800px;
 }
 
 h1{
-    margin-bottom: 40px;
-    font-size: 3rem;
-    background: linear-gradient(90deg rgb(0, 140, 255) rgb(255, 192, 225));
-    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 50px;
+    color: rgb(0, 140, 255) rgb(255, 192, 225);
 }
 
 .keyboard{
@@ -40,8 +29,13 @@ h1{
 .row5,
 .row6{
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    color: rgb(0, 179, 255);
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
 }
 
 .row6{
