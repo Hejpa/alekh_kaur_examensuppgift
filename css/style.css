@@ -45,5 +45,39 @@ h1{
     transition: 0.3s;
 }
 
+.row1 div,
+.row4{
+    background-color: #3498db;
+    box-shadow: 0 0 10px #3498db;
+}
+
+.row2 div,
+.row5{
+    background-color: #ff4fd8;
+    box-shadow: 0 0 10px #ff4fd8;
+}
+
+,row3,
+.row6{
+    background-color: #9b59b6;
+    box-shadow: 0 0 10px #9b59b6;
+}
+
+.row1 div:hover,
+.row2 div:hover,
+.row3 div:hover,
+.row4 div:hover,
+.row5 div:hover,
+.row6 div:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px white;
+}
+
+#backspace{width: 120px;}
+#enter{width: 120px;}
+#caps{width: 110px;}
+#leftshift{width:140px;}
+#rightshift{ width: 170px;}
+#space{width: 350px;}
 
 
