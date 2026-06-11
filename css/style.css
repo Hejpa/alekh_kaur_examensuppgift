@@ -57,7 +57,7 @@ h1{
     box-shadow: 0 0 10px #ff4fd8;
 }
 
-,row3,
+.row3,
 .row6{
     background-color: #9b59b6;
     box-shadow: 0 0 10px #9b59b6;
@@ -79,5 +79,3 @@ h1{
 #leftshift{width:140px;}
 #rightshift{ width: 170px;}
 #space{width: 350px;}
-
-
